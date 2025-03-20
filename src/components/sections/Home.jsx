@@ -38,9 +38,6 @@ export const Home = () => {
               Contact Me
             </a>
           </div>
-          {/* <div className="flex justify-center space-x-4">
-          <a href="#projects">Contact Me</a>
-        </div> */}
         </div>
       </RevealOnScroll>
     </section>

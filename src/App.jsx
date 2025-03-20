@@ -10,17 +10,17 @@ import { Projects } from "./components/sections/Projects";
 import { Contact } from "./components/sections/Contact";
 
 function App() {
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <>
-      {/* {isLoading && (
+      {isLoading && (
         <LoadingScreen
           onComplete={() => {
             setIsLoading(false);
           }}
         />
-      )} */}
+      )}
       <div
         className={`min-h-screen transition-opacity duration-700 bg-black, text-grey-100 ${
           isLoading ? "opacity-0" : "opacity-100"

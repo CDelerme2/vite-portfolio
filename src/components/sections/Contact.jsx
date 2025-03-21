@@ -200,6 +200,7 @@ export const Contact = () => {
                   data-dismiss-target="#alert-2"
                   aria-label="Close"
                   onClick={() => {
+                    console.log("onClick()");
                     setErrorMessage("");
                     setMessageSent(false);
                   }}

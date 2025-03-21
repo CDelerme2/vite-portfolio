@@ -1,6 +1,6 @@
 {
-  "name": "cdelerme-portfolio",
-  "homepage": "https://github.com/CDelerme2/cdelerme-portfolio",
+  "name": "vite-portfolio",
+  "homepage": "https://cdelerme2.github.io/vite-portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",

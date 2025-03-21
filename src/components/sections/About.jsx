@@ -1,7 +1,6 @@
 import { RevealOnScroll } from "../ReveaolOnScroll";
 
 export const About = () => {
-  console.log("About()");
   const FE_skills = [
     "React",
     "JavaScript",

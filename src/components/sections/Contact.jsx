@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { RevealOnScroll } from "../ReveaolOnScroll";
-// import Spinner from "../Spinner";
+import Spinner from "../Spinner";
 import emailjs from "@emailjs/browser";
 
 const initialState = {
@@ -115,13 +115,14 @@ export const Contact = () => {
                 className="w-full bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.7)] disabled:bg-gray-600"
                 disabled={isSending}
               >
-                {!isSending
-                  ? "Send Message"
-                  : // <div role="status">
-                    //   <Spinner />
-                    //   <span className="sr-only">Sending...</span>
-                    // </div>
-                    "Sending..."}
+                {!isSending ? (
+                  "Send Message"
+                ) : (
+                  <div role="status">
+                    <Spinner />
+                    <span className="sr-only">Sending...</span>
+                  </div>
+                )}
               </button>
             )}
 
@@ -131,7 +132,7 @@ export const Contact = () => {
                 className="flex items-center p-4 mb-4 text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400"
                 role="alert"
               >
-                {/* <svg
+                <svg
                   className="shrink-0 w-4 h-4"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
@@ -139,7 +140,7 @@ export const Contact = () => {
                   viewBox="0 0 20 20"
                 >
                   <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z" />
-                </svg> */}
+                </svg>
                 <span className="sr-only">Info</span>
                 <div className="ms-3 text-sm font-medium">
                   Your message has been sent. Thank you.
@@ -155,7 +156,7 @@ export const Contact = () => {
                   }}
                 >
                   <span className="sr-only">Close</span>
-                  {/* <svg
+                  <svg
                     className="w-3 h-3"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
@@ -171,7 +172,7 @@ export const Contact = () => {
                       strokeWidth="2"
                       d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
                     />
-                  </svg> */}
+                  </svg>
                 </button>
               </div>
             )}
@@ -182,7 +183,7 @@ export const Contact = () => {
                 className="flex items-center p-4 mb-4 text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400"
                 role="alert"
               >
-                {/* <svg
+                <svg
                   className="shrink-0 w-4 h-4"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
@@ -190,7 +191,7 @@ export const Contact = () => {
                   viewBox="0 0 20 20"
                 >
                   <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z" />
-                </svg> */}
+                </svg>
                 <span className="sr-only">Info</span>
                 <div className="ms-3 text-sm font-medium">{errorMessage}</div>
                 <button
@@ -204,7 +205,7 @@ export const Contact = () => {
                   }}
                 >
                   <span className="sr-only">Close</span>
-                  {/* <svg
+                  <svg
                     className="w-3 h-3"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
@@ -220,7 +221,7 @@ export const Contact = () => {
                       strokeWidth="2"
                       d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
                     />
-                  </svg> */}
+                  </svg>
                 </button>
               </div>
             )}

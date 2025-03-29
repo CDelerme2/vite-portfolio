@@ -26,7 +26,7 @@ export const Projects = () => {
               <p className="text-gray-400 mb-4">
                 Responsible for integrating ReactJS library functionality into
                 .NET-based Blazor Web Assembly application and proprietary
-                AI-based RESTful API endpoints and backend services..
+                AI-based RESTful API endpoints and backend services.
               </p>
               <div>
                 {[
@@ -61,12 +61,10 @@ export const Projects = () => {
                 </a>
               </div>
               <p className="text-gray-400 mb-4">
-                I was a major contributor to the Healthstream Development Team’s
-                effort to migrate their legacy COI-SMART web application from a
-                PHP/MySQL architecture to a React/PostgreSQL framework and
-                helped create the initial unit tests using React, JavaScript,
-                Enzyme/Jest and related development tools.
-                {/* (See: https://www.healthstream.com/solution/quality-compliance/regulatory-compliance/conflicts-of-interest) */}
+                I was a major contributor to the FBS Development Team's efforts
+                to build their Pinpoint PC Portal Web app from the ground up
+                using React, JavaScript, TypeScript, Next.js, 3rd party
+                libraries such as Material UI, and related technologies.
               </p>
               <div>
                 {[

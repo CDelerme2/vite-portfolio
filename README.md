@@ -10,3 +10,20 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## TO COMMIT TO GITHUB REPO FROM COMMAND LINE:
+
+echo "# vite-portfolio" >> README.md
+git init
+git add .
+git commit -m "message-text"
+git branch -M main
+git push -u origin main
+
+## TO DEPLOY FROM COMMAND LINE:
+
+npm run build
+
+git add dist -f
+git commit -m "adding dist"
+git subtree push --prefix dist origin gh-pages

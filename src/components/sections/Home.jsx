@@ -16,9 +16,10 @@ export const Home = () => {
             experience building interactive Web-based applications across
             various industries in an agile environment. I have work experience
             in various front-end technologies including React, JavaScript,
-            TypeScript, Redux, Next.js, HTML, and Tailwind/CSS as well as
-            back-end methodologies such as RESTful APIs, Node.js, RDBMS, SQL,
-            and integrating backend services.
+            TypeScript, Redux, Next.js, HTML, and Tailwind/CSS and working
+            knowledge of JS frameworks like Angular and Vue. I also have
+            significant experience in back-end methodologies such as RDBMS, SQL,
+            RESTful APIs and familiar with Node.js, Express, and GraphQL.
           </p>
           <div className="flex justify-center space-x-4">
             <a

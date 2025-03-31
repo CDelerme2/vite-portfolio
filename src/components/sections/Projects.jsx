@@ -8,6 +8,8 @@ export const Projects = () => {
     >
       <RevealOnScroll>
         <div className="max-w-7xl max-auto px-4">
+          {/* My work experience and skillsets make me a strong candidate for any Web-based development role
+            requiring initiative, innovation and leadership and my employment history reveals a strong work ethic. */}
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 leading-right bg-clip-text text-transparent  text-center">
             Featured Projects
           </h2>

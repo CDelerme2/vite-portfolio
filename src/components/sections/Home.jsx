@@ -18,10 +18,7 @@ export const Home = () => {
             in various front-end technologies including React, JavaScript,
             TypeScript, Redux, Next.js, HTML, and Tailwind/CSS as well as
             back-end methodologies such as RESTful APIs, Node.js, RDBMS, SQL,
-            and integrating backend services. My work experience and skillsets
-            make me a strong candidate for any Web-based development role
-            requiring initiative, innovation and leadership and my employment
-            history reveals a strong work ethic.
+            and integrating backend services.
           </p>
           <div className="flex justify-center space-x-4">
             <a

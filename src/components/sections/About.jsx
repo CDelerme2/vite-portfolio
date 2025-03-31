@@ -25,7 +25,12 @@ export const About = () => {
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-0.5 transition-all">
             <p className="text-gray-300 mb-6">
               I am a passionate developer with expertise in building scalabe web
-              applications and creating innovative solutiions
+              applications and creating innovative solutiions. I have
+              significant hands-on work experience implementing web development
+              best practices and principles. My work experience and skillsets
+              make me a strong candidate for any Web-based development role
+              requiring initiative, innovation and leadership and my employment
+              history reveals a strong work ethic.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="rounded-xl p-6  hover:-translate-y-0.5 transition-all">
@@ -65,22 +70,16 @@ export const About = () => {
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-0.5 transition-all">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="rounded-xl p-6  hover:-translate-y-0.5 transition-all">
-                <h3 className="text-xl mb-4 font-bold">Education</h3>
-                <div className="flex flex-wrap gap-2">
-                  <ul className="list-disc list-inside text-gray-300 space-y-2">
-                    <li className="text-med">
-                      <strong>A.A.S in Information Systems Technology</strong> -
-                      SUNY Farmingdale [2000]
-                    </li>
-                    {/* <li className="text-med">Relevant coursework:...</li> */}
-                  </ul>
-                </div>
-              </div>
-
-              <div className="rounded-xl p-6 hover:-translate-y-0.5 transition-all">
                 <h3 className="text-xl mb-4 font-bold">Experience</h3>
                 <div className="flex flex-wrap gap-2">
                   <ul className="list-disc list-inside text-gray-300 space-y-2">
+                    {/* <li className="text-med">
+                      <strong>A.A.S in Information Systems Technology</strong> -
+                      SUNY Farmingdale [2000]
+                    </li> */}
+                    <li className="text-med">
+                      <strong>Freelance Web Developor</strong> [2024-Present]
+                    </li>
                     <li className="text-med">
                       <strong>Front End UI Consultant</strong> - Global Logic,
                       Inc. [2024]
@@ -89,6 +88,14 @@ export const About = () => {
                       <strong>Front End Developer</strong> - Flexible Business
                       Systems, Inc. [2023-2024]
                     </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="rounded-xl p-6 hover:-translate-y-0.5 transition-all">
+                <h3 className="text-xl mb-4 font-bold">&nbsp;</h3>
+                <div className="flex flex-wrap gap-2">
+                  <ul className="list-disc list-inside text-gray-300 space-y-2">
                     <li className="text-med">
                       <strong>Full Stack Developer</strong> - HealthStream, Inc.
                       [2016-2022]
